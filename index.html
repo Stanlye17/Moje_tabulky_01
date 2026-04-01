@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Průvodce Tabulkovými Kalkulátory</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; background-color: #f4f4f4; }
+        header { background: #2c3e50; color: white; padding: 1rem; text-align: center; border-radius: 8px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #27ae60; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        code { background: #eee; padding: 2px 4px; border-radius: 4px; font-family: monospace; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Excel & Calc: Svět tabulek</h1>
+</header>
+
+<section>
+    <h2>Proč používat tabulkové procesory?</h2>
+    <p>Tabulkové procesory jako <strong>MS Excel</strong> nebo <strong>LibreOffice Calc</strong> jsou nezbytné nástroje pro analýzu dat, finance i jednoduché seznamy.</p>
+</section>
+
+<section>
+    <h2>Srovnání základních funkcí</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Kategorie</th>
+                <th>MS Excel (XLS)</th>
+                <th>LibreOffice Calc</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Základní součet</td>
+                <td><code>=SUM(A1:A10)</code></td>
+                <td><code>=SUM(A1:A10)</code></td>
+            </tr>
+            <tr>
+                <td>Vyhledávání</td>
+                <td><code>=XLOOKUP(...)</code></td>
+                <td><code>=VLOOKUP(...)</code></td>
+            </tr>
+            <tr>
+                <td>Podmínky</td>
+                <td><code>=IF(A1>10;"Ano";"Ne")</code></td>
+                <td><code>=IF(A1>10;"Ano";"Ne")</code></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+</body>
+</html>
